@@ -5,7 +5,9 @@
 
 CubeSat flatsat testbed for deploying and testing AI algorithms, end-to-end processing pipelines and avionics SW/HW. Supports on-board processing validation and serves as development platform for university student projects and future open-source CubeSat missions.
 
-**ORION Lab** | Open-source
+**Ω-space Group** | **ORION Lab** | **National Technical University of Athens**
+
+Open-source
 
 ---
 
@@ -83,7 +85,6 @@ orion-cubesat-testbed/
 └── docs/                 # Documentation
 ```
 
-See [DIRECTORY_STRUCTURE.md](DIRECTORY_STRUCTURE.md) for details.
 
 ---
 
@@ -106,27 +107,22 @@ cd orion-cubesat-testbed
 
 **Prerequisites**: Ubuntu 22.04, ROS 2 Humble, Python 3.10+
 
-Detailed instructions: [docs/getting-started/](docs/getting-started/)
 
 ---
 
 ## 🔧 Current Development Status
 
-### ✅ Completed
-- Hardware acquisition and setup
-- Repository structure and documentation
-- Initial project planning
 
 ### 🔄 In Progress
 - C&DH basic functionality (Space ROS on RPi4)
 - CAN bus communication protocol
 - Space ROS integration
 - Payload containerization framework
+- AI model deployment
 
 ### ⏳ Planned
-- Full subsystem integration
+- Full subsystem integration (Comms, EPS)
 - Ground station implementation
-- AI model deployment
 - End-to-end testing
 
 ---
@@ -177,9 +173,11 @@ GPL-3.0 License - see [LICENSE](LICENSE) for details.
 
 ## 📧 Contact
 
+**Ω-space Group**  
 **ORION Lab**  
-[Your University Name]  
-[Contact Information]
+National Technical University of Athens  
+
+Website: [https://orionlab.space.noa.gr/](https://orionlab.space.noa.gr/)  
 
 ---
 
