@@ -1,3 +1,9 @@
+# ORION CubeSat Testbed - Git Ignore
+
+# Internal tracking documents (not for public repo)
+VERSION_TRACKING.md
+
+# ROS
 devel/
 logs/
 build/
@@ -49,3 +55,120 @@ qtcreator-*
 
 # Catkin custom files
 CATKIN_IGNORE
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+build/
+bin/
+lib/
+devel/
+install/
+log/
+
+# Compiled files
+*.o
+*.ko
+*.obj
+*.elf
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debugging
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Hardware-specific
+*.bit
+*.mcs
+*.bin
+*.elf
+*.hex
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Credentials and secrets
+*.pem
+*.key
+secrets/
+.env
+credentials.json
+
+# Large data files
+*.bag
+*.rosbag
+*.pcap
+*.raw
+data/large/
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# Test results
+test_results/
+*.xml
+
+# Docker
+.docker/
+
+# Backup files
+*.bak
+*.backup
+*~
